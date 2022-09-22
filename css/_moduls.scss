@@ -1,0 +1,8 @@
+.container{
+    $max-width: 940px;
+    $padding: 1rem;
+    width: min($max-width, 100% - $padding);
+    margin-inline: auto;
+}
+
+$index: calc(1vw + 1vh);

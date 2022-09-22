@@ -1,0 +1,31 @@
+.brands-info{
+    background-color: hsla(60, 96%, 89%, 1);
+    .brands-info__content{
+        padding-block: 60px;
+        p{
+            font-family: 'Vollkorn';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 25px;
+            text-align: center;
+            color: #47474F;
+            padding-block-end: 40px;
+        }
+       .btn-box{
+        display: flex;
+        justify-content: center;
+        .brands-info__content-btn{
+            font-family: 'Vollkorn';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 20px;
+            text-align: center;
+            color: #47474F;
+            padding: 20px 34px;
+            background-color: transparent;
+        }
+       }
+    }
+}

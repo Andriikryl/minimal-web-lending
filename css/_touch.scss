@@ -1,0 +1,67 @@
+
+.touch{
+    padding-block: 70px;
+    background-image: url(../images/touch/bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    h2{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 23px;
+        line-height: 36px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #333333;
+        padding-block-end: 30px;
+    }
+    hr{
+        width: 80px;
+        border: 1px solid rgba(0, 0, 0, 0.09);
+        margin: auto;
+        margin-block-end: 42px;
+    }
+    .touch__content{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 20px;
+        article{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            .touch__box-img{
+                max-width: 70px;
+                padding-block-end: 26px;
+            }
+            p{
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 20px;
+                text-align: center;
+                text-transform: uppercase;
+                color: #333333;
+                padding-block-end: 20px;
+            }
+            address{
+font-family: 'Vollkorn';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 22px;
+text-align: center;
+color: #212121;
+a{
+   &:first-of-type{
+    padding-block-end: 20px;
+   }
+}
+            }
+        }
+    }
+}
